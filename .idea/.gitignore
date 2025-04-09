@@ -2,6 +2,8 @@
 /shelf/
 /workspace.xml
 
+/out/
+/out/production/
 /bin/           # Dosja ku zakonisht ruhen klasat e kompiluara
 *.class         # Fajllat .class të cilët gjenerohen pas kompilimit
 *.log           # Fajllat log (nëse krijohen gjatë testimeve)
