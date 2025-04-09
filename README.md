@@ -20,8 +20,10 @@ Të dy algoritmet janë implementuar në Java dhe janë krijuar për të demonst
 3. **Kompiloni dhe Ekzekutoni Programin**
    Për të kompiluar dhe ekzekutuar programin, përdorni komandat e mëposhtme në terminal (sigurohuni që të jeni në dosjen e projektit):
    
+   ```bash
    javac src/*.java
    java src.Main
+   ```
 
    Po ashtu, mund ta ekzekutoni programin direkt nga IDE-ja duke klikuar butonin "Run".
 
