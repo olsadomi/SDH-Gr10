@@ -1,0 +1,9 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+/bin/           # Dosja ku zakonisht ruhen klasat e kompiluara
+*.class         # Fajllat .class të cilët gjenerohen pas kompilimit
+*.log           # Fajllat log (nëse krijohen gjatë testimeve)
+.idea/          # Dosja që krijohet nga IntelliJ IDEA
+*.iml           # Fajllat e konfigurimit të IntelliJ projektit
