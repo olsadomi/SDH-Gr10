@@ -34,6 +34,9 @@ Të dy algoritmet janë implementuar në Java dhe janë krijuar për të demonst
 
 **Polybius Square Cipher** është një metodë e thjeshtë e enkriptimit që përdor një matricë 5x5 të shkronjave. Çdo shkronjë e mesazhit përfaqësohet nga një çift numrash, që janë koordinatat e rreshtit dhe kolonës në matricë.
 
+### Shembull i Ekzekutimit - Enkriptimi
+
+![Polybius Square Cipher Execution](src/resources/assets/polybius-demo.png)
 
 
 
