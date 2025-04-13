@@ -2,14 +2,45 @@ import java.util.*;
 
 public class MyszkowskiTransposition {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Vendos informacionin qe deshironi te enkriptoni me Myszkowski Transposition: ");
-        String message=sc.nextLine();
-        System.out.println("Vendos key per enkriptim: ");
-        String key=sc.nextLine();
-        String ciphertext = Myszkowski.encrypt(message, key);
-        System.out.println("Original: " + message.toUpperCase().replaceAll(" ", ""));
-        System.out.println("Ciphertext: " + ciphertext);
+        Scanner sc = new Scanner(System.in);
+        String choice;
+
+        do {
+            System.out.println("Choose an option:");
+            System.out.println("1 - Encrypt");
+            System.out.println("2 - Decrypt");
+            System.out.print("Choice: ");
+            choice = sc.nextLine().trim();
+
+            if (choice.equals("1")) {
+                System.out.print("Enter message to encrypt: ");
+                String message = sc.nextLine();
+                System.out.print("Enter key: ");
+                String key = sc.nextLine();
+
+                String encrypted = Myszkowski.encrypt(message, key);
+                System.out.println("Original: " + message.toUpperCase().replaceAll(" ", ""));
+                System.out.println("Encrypted: " + encrypted);
+
+            } else if (choice.equals("2")) {
+                System.out.print("Enter message to decrypt: ");
+                String encrypted = sc.nextLine();
+                System.out.print("Enter key: ");
+                String key = sc.nextLine();
+
+                String decrypted = Myszkowski.decrypt(encrypted, key);
+                System.out.println("Encrypted: " + encrypted.toUpperCase());
+                System.out.println("Decrypted: " + decrypted);
+            } else {
+                System.out.println("Invalid choice. Try again.");
+            }
+
+            System.out.print("\n Continue? (y/n): ");
+            choice = sc.nextLine().trim().toLowerCase();
+
+        } while (!choice.equals("n"));
+
+        System.out.println("Program finished executing!");
     }
 }
 
@@ -27,7 +58,7 @@ class Myszkowski {
             for (int j = 0; j < cols; j++) {
                 matrix[i][j] = (index < message.length()) ?
                         message.charAt(index++)
-                        : ' ';
+                        : 'X';
             }
         }
 
@@ -51,6 +82,7 @@ class Myszkowski {
 
         return cipherText.toString().replaceAll(" ", "");
     }
+
     public static String decrypt(String cipherText, String key) {
         cipherText = cipherText.toUpperCase().replaceAll(" ", "");
         key = key.toUpperCase();
@@ -64,7 +96,6 @@ class Myszkowski {
             keyMap.putIfAbsent(key.charAt(i), new ArrayList<>());
             keyMap.get(key.charAt(i)).add(i);
         }
-
         int cipherIndex = 0;
         for (List<Integer> positions : keyMap.values()) {
             for (int row = 0; row < rows; row++) {
@@ -75,14 +106,12 @@ class Myszkowski {
                 }
             }
         }
-
         StringBuilder plain = new StringBuilder();
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 plain.append(matrix[i][j]);
             }
         }
-
         return plain.toString().replaceAll("X+$", "");
     }
 }
