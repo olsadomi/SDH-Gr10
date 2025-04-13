@@ -49,6 +49,17 @@ Të dy algoritmet janë implementuar në Java dhe janë krijuar për të demonst
 Teksti vendoset në një tabelë me kolona sipas çelësit, dhe kolonat lexohen në rendin që përcaktohet nga shkronjat e çelësit. 
 Shkronjat e njëjta në çelës shkaktojnë që kolonat përkatëse të lexohen në të njëjtën radhë, duke e dalluar këtë metodë nga transpozimet e zakonshme.
 
+#### Hapat për Enkriptimin
+1. **Inputi**: Mesazhi që do të kodoni dhe një fjalë kyçe.
+2. **Hapi i parë**: Krijo një tabelë me disa kolona që janë të barabarta me gjatësinë e fjalës kyçe.
+3. **Hapi i dytë**: Radhit secilën shkronjë të mesazhit sipas pozicionit të shkronjave të fjalës kyçe.
+4. **Hapi i tretë**: Shtyp çdo kolonë në radhë, duke formuar mesazhin e koduar.
+
+#### Hapat për Dekriptim
+1. **Inputi**: Mesazhi i koduar dhe fjalë kyçe.
+2. **Hapi i parë**: Krijo tabelën përkatëse me numërimin e kolonave të bazuar në fjalën kyçe.
+3. **Hapi i dytë**: Riorganizo karakteret për të rikthyer mesazhin origjinal sipas pozicioneve të fjalës kyçe.
+4. **Hapi i tretë**: Lexo mesazhin e dekoduar nga rreshtat.
 
 ### Shembull i Ekzekutimit të Myszkowski Transposition - Enkriptimi dhe Dekriptimi 
 
