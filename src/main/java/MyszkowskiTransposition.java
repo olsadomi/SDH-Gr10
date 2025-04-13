@@ -5,42 +5,50 @@ public class MyszkowskiTransposition {
         Scanner sc = new Scanner(System.in);
         String choice;
 
+        System.out.println("----------------------------------------");
+        System.out.println("| DEMONSTRIM I MYSZKOWSKI TRANSPOSITION |");
+        System.out.println("----------------------------------------\n");
+
         do {
-            System.out.println("Choose an option:");
-            System.out.println("1 - Encrypt");
-            System.out.println("2 - Decrypt");
-            System.out.print("Choice: ");
+            System.out.println("Zgjidhni nje opsion:");
+            System.out.println("1 - Enkriptim");
+            System.out.println("2 - Dekriptim");
+            System.out.print("Zgjedhja juaj: ");
             choice = sc.nextLine().trim();
 
             if (choice.equals("1")) {
-                System.out.print("Enter message to encrypt: ");
+                System.out.print("\nShkruani mesazhin per enkriptim: ");
                 String message = sc.nextLine();
-                System.out.print("Enter key: ");
+                System.out.print("Shkruani celesin (key): ");
                 String key = sc.nextLine();
 
                 String encrypted = Myszkowski.encrypt(message, key);
-                System.out.println("Original: " + message.toUpperCase().replaceAll(" ", ""));
-                System.out.println("Encrypted: " + encrypted);
+                System.out.println("\n----------------------------------------");
+                System.out.println("Teksti origjinal: " + message.toUpperCase().replaceAll(" ", ""));
+                System.out.println("Teksti i enkriptuar: " + encrypted);
+                System.out.println("----------------------------------------");
 
             } else if (choice.equals("2")) {
-                System.out.print("Enter message to decrypt: ");
+                System.out.print("\nShkruani mesazhin per dekriptim: ");
                 String encrypted = sc.nextLine();
-                System.out.print("Enter key: ");
+                System.out.print("Shkruani celesin (key): ");
                 String key = sc.nextLine();
 
                 String decrypted = Myszkowski.decrypt(encrypted, key);
-                System.out.println("Encrypted: " + encrypted.toUpperCase());
-                System.out.println("Decrypted: " + decrypted);
+                System.out.println("\n----------------------------------------");
+                System.out.println("Teksti i enkriptuar: " + encrypted.toUpperCase());
+                System.out.println("Teksti i dekriptuar: " + decrypted);
+                System.out.println("----------------------------------------");
             } else {
-                System.out.println("Invalid choice. Try again.");
+                System.out.println("Zgjedhje e pavlefshme. Ju lutem provoni perseri.");
             }
 
-            System.out.print("\n Continue? (y/n): ");
+            System.out.print("\nDeshironi te vazhdoni? (p/j): ");
             choice = sc.nextLine().trim().toLowerCase();
 
-        } while (!choice.equals("n"));
+        } while (!choice.equals("j"));
 
-        System.out.println("Program finished executing!");
+        System.out.println("\nProgrami ka perfunduar ekzekutimin!");
     }
 }
 

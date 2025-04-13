@@ -63,4 +63,4 @@ Shkronjat e njëjta në çelës shkaktojnë që kolonat përkatëse të lexohen 
 
 ### Shembull i Ekzekutimit të Myszkowski Transposition - Enkriptimi dhe Dekriptimi 
 
-![Enkriptim dhe Dekriptim](src/resources/assets/MyszkowskiTransposition.png)
+![Enkriptimi dhe Dekriptimi](src/resources/assets/MyszkowskiEncryption&Decryption.png)
