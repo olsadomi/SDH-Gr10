@@ -51,4 +51,38 @@ class Myszkowski {
 
         return cipherText.toString().replaceAll(" ", "");
     }
+    public static String decrypt(String cipherText, String key) {
+        cipherText = cipherText.toUpperCase().replaceAll(" ", "");
+        key = key.toUpperCase();
+
+        int cols = key.length();
+        int rows = (int) Math.ceil((double) cipherText.length() / cols);
+        char[][] matrix = new char[rows][cols];
+
+        Map<Character, List<Integer>> keyMap = new TreeMap<>();
+        for (int i = 0; i < cols; i++) {
+            keyMap.putIfAbsent(key.charAt(i), new ArrayList<>());
+            keyMap.get(key.charAt(i)).add(i);
+        }
+
+        int cipherIndex = 0;
+        for (List<Integer> positions : keyMap.values()) {
+            for (int row = 0; row < rows; row++) {
+                for (int col : positions) {
+                    if (cipherIndex < cipherText.length()) {
+                        matrix[row][col] = cipherText.charAt(cipherIndex++);
+                    }
+                }
+            }
+        }
+
+        StringBuilder plain = new StringBuilder();
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                plain.append(matrix[i][j]);
+            }
+        }
+
+        return plain.toString().replaceAll("X+$", "");
+    }
 }
