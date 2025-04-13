@@ -2,10 +2,13 @@ import java.util.*;
 
 public class MyszkowskiTransposition {
     public static void main(String[] args) {
-        String message = "MUHAMED JAKUPI";
-        String key = "HELLO";
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Vendos informacionin qe deshironi te enkriptoni me Myszkowski Transposition: ");
+        String message=sc.nextLine();
+        System.out.println("Vendos key per enkriptim: ");
+        String key=sc.nextLine();
         String ciphertext = Myszkowski.encrypt(message, key);
-        System.out.println("Original: " + message);
+        System.out.println("Original: " + message.toUpperCase().replaceAll(" ", ""));
         System.out.println("Ciphertext: " + ciphertext);
     }
 }
