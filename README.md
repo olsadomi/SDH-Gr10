@@ -34,14 +34,26 @@ Të dy algoritmet janë implementuar në Java dhe janë krijuar për të demonst
 
 **Polybius Square Cipher** është një metodë e thjeshtë e enkriptimit që përdor një matricë 5x5 të shkronjave. Çdo shkronjë e mesazhit përfaqësohet nga një çift numrash, që janë koordinatat e rreshtit dhe kolonës në matricë.
 
-### Shembull i Ekzekutimit - Enkriptimi
+### Polybius Square Cipher - Ndërveprimi me Programin në Ekzekutim 
+![Polybius Square Cipher Execution](src/resources/assets/PolybiusSquareCipherProgramLook.png)
 
-![Polybius Square Cipher Execution](src/resources/assets/polybius-demo.png)
+#### Hapat për Enkriptimin
+1. **Inputi**: Mesazhi që do të enkriptohet.
+2. **Hapi i parë**: Krijo matricën 5x5 me të gjitha shkronjat e alfabetit (duke bashkuar I/J në një qelizë).
+3. **Hapi i dytë**: Për secilën shkronjë të mesazhit (shkronja të mëdha dhe pa hapësira), gjej pozicionin përkatës në matricë në formatin (rresht, kolonë).
+4. **Hapi i tretë**: Zëvendëso shkronjat me çiftet e numrave dhe i bashkoni për të krijuar tekstin e enkriptuar.
 
-### 1.1 **Polybius Square Cipher Decryption**
+#### Hapat për Dekriptim
+1. **Inputi**:  Teksti i enkriptuar në formën e çifteve numerike.
+2. **Hapi i parë**: Përdor të njëjtën matricë 5x5 të përdorur në enkriptim.
+3. **Hapi i dytë**: Ndaje tekstin e enkriptuar në çifte numrash (rresht, kolonë).
+4. **Hapi i tretë**: Gjej shkronjën përkatëse në matricë për secilin çift numrash dhe i bashkoni për të formuar mesazhin origjinal.
 
-### Shembull i Ekzekutimit - Dekriptimi
-![Polybius Square Cipher Execution](src/resources/assets/PolybiusDecrypt.png)
+
+### Shembull i Ekzekutimit të Polybius Square Cipher - Enkriptimi dhe Dekriptimi
+
+![Polybius Square Cipher Execution](src/resources/assets/PolybiusSquareCipherEnc&Dec.png)
+
 
 
 ### 2. **Myszkowski Transposition Cipher** 
