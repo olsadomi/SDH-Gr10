@@ -41,7 +41,7 @@ Të dy algoritmet janë implementuar në Java dhe janë krijuar për të demonst
 ### 1.1 **Polybius Square Cipher Decryption**
 
 ### Shembull i Ekzekutimit - Dekriptimi
-![Polybius Square Cipher Execution](src/resources/assets/polybius-demo1.png)
+![Polybius Square Cipher Execution](src/resources/assets/PolybiusDecrypt.png)
 
 
 ### 2. **Myszkowski Transposition Cipher** 
