@@ -38,6 +38,12 @@ Të dy algoritmet janë implementuar në Java dhe janë krijuar për të demonst
 
 ![Polybius Square Cipher Execution](src/resources/assets/polybius-demo.png)
 
+### 1.1 **Polybius Square Cipher Decryption**
+
+### Shembull i Ekzekutimit - Dekriptimi
+![Polybius Square Cipher Execution](src/resources/assets/![{53CA0A80-4A56-4D0D-A3AA-542AF94F919C}](https://github.com/user-attachments/assets/3ffb741b-ab12-49b2-98c0-84025bb367e1)
+)
+
 
 ### 2. **Myszkowski Transposition Cipher** 
 **Myszkowski Transposition Cipher** është një metodë enkriptimi që përdor një fjalë kyçe me shkronja të përsëritura për të riorganizuar tekstin. 
