@@ -40,11 +40,10 @@ Të dy algoritmet janë implementuar në Java dhe janë krijuar për të demonst
 
 
 ### 2. **Myszkowski Transposition Cipher** 
-<div style="text-align: justify">
-**Myszkowski Transposition Cipher** është një metodë kodimi që përdor një fjalë kyçe me shkronja të përsëritura për të riorganizuar tekstin. 
+**Myszkowski Transposition Cipher** është një metodë enkriptimi që përdor një fjalë kyçe me shkronja të përsëritura për të riorganizuar tekstin. 
 Teksti vendoset në një tabelë me kolona sipas çelësit, dhe kolonat lexohen në rendin që përcaktohet nga shkronjat e çelësit. 
 Shkronjat e njëjta në çelës shkaktojnë që kolonat përkatëse të lexohen në të njëjtën radhë, duke e dalluar këtë metodë nga transpozimet e zakonshme.
-</div>
+
 ### Shembull i Ekzekutimit të Myszkowski Transposition - Enkriptimi
 
 ![Myszkowski Transposition Execution](src/resources/assets/Myszkowski_Transposition.png)
