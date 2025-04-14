@@ -27,6 +27,7 @@ Të dy algoritmet janë implementuar në Java dhe janë krijuar për të demonst
 
    Po ashtu, mund ta ekzekutoni programin direkt nga IDE-ja duke klikuar butonin "Run".
 
+-----------------------------------------------------------
 
    ## **Algoritmet**
 
@@ -54,7 +55,7 @@ Të dy algoritmet janë implementuar në Java dhe janë krijuar për të demonst
 
 ![Polybius Square Cipher Execution](src/resources/assets/PolybiusSquareCipherEnc&Dec.png)
 
-
+---------------------------------------------------------------
 
 ### 2. **Myszkowski Transposition Cipher** 
 **Myszkowski Transposition Cipher** është një metodë enkriptimi që përdor një fjalë kyçe me shkronja të përsëritura për të riorganizuar tekstin. 
