@@ -64,13 +64,13 @@ Shkronjat e njëjta në çelës shkaktojnë që kolonat përkatëse të lexohen 
 
 #### Hapat për Enkriptimin
 1. **Inputi**: Mesazhi që do të kodoni dhe një fjalë kyçe.
-2. **Hapi i parë**: Krijo një tabelë me disa kolona që janë të barabarta me gjatësinë e fjalës kyçe.
+2. **Hapi i parë**: Krijo një tabelë ku numri i kolonave është i barabartë me numrin e shkronjave të fjalës kyçe.
 3. **Hapi i dytë**: Radhit secilën shkronjë të mesazhit sipas pozicionit të shkronjave të fjalës kyçe.
 4. **Hapi i tretë**: Shtyp çdo kolonë në radhë, duke formuar mesazhin e koduar.
 
 #### Hapat për Dekriptim
-1. **Inputi**: Mesazhi i koduar dhe fjalë kyçe.
-2. **Hapi i parë**: Krijo tabelën përkatëse me numërimin e kolonave të bazuar në fjalën kyçe.
+1. **Inputi**: Mesazhi i koduar dhe një fjalë kyçe.
+2. **Hapi i parë**: Krijo një tabelë ku numri i kolonave është i barabartë me numrin e shkronjave të fjalës kyçe.
 3. **Hapi i dytë**: Riorganizo karakteret për të rikthyer mesazhin origjinal sipas pozicioneve të fjalës kyçe.
 4. **Hapi i tretë**: Lexo mesazhin e dekoduar nga rreshtat.
 
