@@ -77,3 +77,11 @@ Shkronjat e njëjta në çelës shkaktojnë që kolonat përkatëse të lexohen 
 ### Shembull i Ekzekutimit të Myszkowski Transposition - Enkriptimi dhe Dekriptimi 
 
 ![Enkriptimi dhe Dekriptimi](src/resources/assets/MyszkowskiEncryption&Decryption.png)
+
+-----------------------------------------------------------------
+
+Punuar nga:
+   - Mehmet Mehmeti
+   - Muhamed Jakupi
+   - Natyra Bajgora
+   - Olsa Domi
