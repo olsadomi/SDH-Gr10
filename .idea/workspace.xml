@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1d60c7a-c918-48b2-adfe-713b4b84dba6" name="Changes" comment="finaaal edit README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SDH-Gr10.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyszkowskiTransposition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyszkowskiTransposition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PolybiusSquareCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PolybiusSquareCipher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,7 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2vZrDA1OSWuF13ee1IlA6gyIY09" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,10 +47,16 @@
   &quot;keyToString&quot;: {
     &quot;Application.MyszkowskiTransposition.executor&quot;: &quot;Run&quot;,
     &quot;Application.PolybiusSquareCipher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.java.MyszkowskiTransposition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.java.PolybiusSquareCipher.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/IdeaProjects/SDH-Gr10&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/IdeaProjects/SDH-Gr10&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Admin/IdeaProjects/SDH-Gr10/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -63,7 +68,7 @@
       <recent name="C:\Users\Admin\IdeaProjects\SDH-Gr10\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PolybiusSquareCipher">
+  <component name="RunManager" selected="Application.main.java.MyszkowskiTransposition">
     <configuration name="MyszkowskiTransposition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyszkowskiTransposition" />
       <module name="SDH-Gr10" />
@@ -72,16 +77,52 @@
       </method>
     </configuration>
     <configuration name="PolybiusSquareCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="PolybiusSquareCipher" />
       <module name="SDH-Gr10" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.java.MyszkowskiTransposition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.MyszkowskiTransposition" />
+      <module name="SDH-Gr10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.java.PolybiusSquareCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.PolybiusSquareCipher" />
+      <module name="SDH-Gr10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MyszkowskiTransposition" />
+      <item itemvalue="Application.PolybiusSquareCipher" />
+      <item itemvalue="Application.main.java.MyszkowskiTransposition" />
+      <item itemvalue="Application.main.java.PolybiusSquareCipher" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PolybiusSquareCipher" />
+        <item itemvalue="Application.main.java.MyszkowskiTransposition" />
+        <item itemvalue="Application.main.java.PolybiusSquareCipher" />
         <item itemvalue="Application.MyszkowskiTransposition" />
+        <item itemvalue="Application.PolybiusSquareCipher" />
       </list>
     </recent_temporary>
   </component>

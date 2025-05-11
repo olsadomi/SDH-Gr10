@@ -1,3 +1,5 @@
+package main.java;
+
 import java.util.Scanner;
 public class PolybiusSquareCipher {
     private static final char[][] SQUARE = {
